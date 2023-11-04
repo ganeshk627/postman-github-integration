@@ -623,6 +623,19 @@
 				"url": "https://reqres.in/api/users/{{user_id}}"
 			},
 			"response": []
+		},
+		{
+			"name": "json-server",
+			"id": "5ffc646b-2989-4a41-9a17-2025d8fbe629",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://my-json-server.typicode.com/ganeshk627/json-server-hogwarts/students"
+			},
+			"response": []
 		}
 	],
 	"event": [
