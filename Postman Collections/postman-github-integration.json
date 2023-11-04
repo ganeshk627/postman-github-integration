@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "41607523-bf52-4933-bea8-f5bfa49b44c1",
 		"name": "api-practice",
-		"description": "_\\*\\\\_ NEWMAN _\\*\\\\_// installation  \nsudo npm install -g newman\n\n// running using newman  \nnewman run --help\n\nnewman run collection.json or\n\nnewman run collection_link\n\n_\\*\\\\_ REPORTERS _\\*\\\\_\n\nsudo npm install -g newman-reporter-htmlextra\n\nsudo npm install -g newman-reporter-junitfull\n\n_\\*\\\\_ GENERATE REPORTS _\\*\\\\_\n\nnewman run collection.json --reporters cli,htmlextra\n\nor\n\nnewman run collection.json -r cli,htmlextra  \nnewman run collection.json -r htmlextra\n\nnewman run collection.json -r junit",
+		"description": "_\\*\\\\_ NEWMAN _\\*\\\\_// installation  \nsudo npm install -g newman\n\n// running using newman  \nnewman run --help\n\nnewman run collection.json or\n\nnewman run collection_link\n\n_\\*\\\\_ REPORTERS _\\*\\\\_\n\nsudo npm install -g newman-reporter-htmlextra\n\nsudo npm install -g newman-reporter-junitfull\n\n_\\*\\\\_ GENERATE REPORT _\\*\\\\_\n\nnewman run collection.json --reporters cli,htmlextra\n\nor\n\nnewman run collection.json -r cli,htmlextra  \nnewman run collection.json -r htmlextra\n\nnewman run collection.json -r junit",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -633,7 +633,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://my-json-server.typicode.com/ganeshk627/json-server-hogwarts/students"
+				"url": "https://my-json-server.typicode.com/ganeshk627/json-server-hogwarts"
 			},
 			"response": []
 		}
